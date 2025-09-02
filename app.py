@@ -72,7 +72,6 @@ from transformers import CLIPProcessor, CLIPModel
 from langchain.agents import Tool, initialize_agent, AgentType
 from langchain.memory import ConversationBufferMemory
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from voice import *
 import time
 import threading
 import warnings
