@@ -64,8 +64,6 @@ import fitz  # PyMuPDF
 import torch
 import faiss
 import sympy as sp
-from docx2pdf import convert
-from pdf2image import convert_from_path
 
 
 from sentence_transformers import SentenceTransformer
