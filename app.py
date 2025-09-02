@@ -54,8 +54,7 @@ print("Hello, world!")
 # =========================
 # 📚 IMPORTS & SETUP
 # =========================
-import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 import numpy as np
 import pandas as pd
@@ -64,7 +63,6 @@ from PIL import Image
 from io import BytesIO
 import fitz  # PyMuPDF
 import pdfplumber
-import pytesseract
 import cv2
 import torch
 import faiss
