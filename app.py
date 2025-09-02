@@ -58,16 +58,12 @@ print("Hello, world!")
 
 import numpy as np
 import pandas as pd
-import PyPDF2
 from PIL import Image
 from io import BytesIO
 import fitz  # PyMuPDF
-import pdfplumber
-import cv2
 import torch
 import faiss
 import sympy as sp
-import re
 from docx2pdf import convert
 from pdf2image import convert_from_path
 
